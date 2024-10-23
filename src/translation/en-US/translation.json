@@ -1,0 +1,27 @@
+{
+	"navbar": {
+		"spotify_button": "Login",
+		"spotify_error_message": "Could not log in please try again later.",
+		"spotify_success_message": "Successfully logged in your account.",
+		"spotify_logout_button": "Logout",
+		"list": {
+			"home": "Home",
+			"about": "About",
+			"listen": "Listen"
+		}
+	},
+	"footer": {
+		"description": "© 2024-'<strong>Kopuz</strong>' a <a>Atakan Çoban</a>'s app.",
+		"description_2": "All rights reserved with <strong>MIT</strong> license."
+	},
+	"home": {
+		"title": "The all musics you want in <strong>Kopuz</strong>",
+		"paragraph_1": "In the quality you want",
+		"paragraph_2": "At any time you want",
+		"paragraph_3": "Listen everywhere",
+		"buttons": {
+			"contact": "Contact with us",
+			"listen": "Listen To Music"
+		}
+	}
+}

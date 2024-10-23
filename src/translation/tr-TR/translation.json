@@ -1,0 +1,27 @@
+{
+	"navbar": {
+		"spotify_button": "Giriş yap",
+		"spotify_error_message": "Giriş yapılamadı daha sonra tekrar deneyiniz.",
+		"spotify_success_message": "Başarıyla hesabınıza giriş yapıldı.",
+		"spotify_logout_button": "Çıkış yap",
+		"list": {
+			"home": "Anasayfa",
+			"about": "Hakkımızda",
+			"listen": "Dinle"
+		}
+	},
+	"footer": {
+		"description": "© 2024-'<strong>Kopuz</strong>' bir <a>Atakan Çoban</a> uygulamasıdır.",
+		"description_2": "Tüm hakları <strong>MIT</strong> lisansı ile korunmaktadır ve saklıdır."
+	},
+	"home": {
+		"title": "İstediğiniz her müziği <strong>Kopuz</strong>'da",
+		"paragraph_1": "İstediğiniz kalitede",
+		"paragraph_2": "İstediğiniz zamanda",
+		"paragraph_3": "Her yerde dinleyin",
+		"buttons": {
+			"contact": "Bizimle İletişime Geç",
+			"listen": "Müzik Dinle"
+		}
+	}
+}

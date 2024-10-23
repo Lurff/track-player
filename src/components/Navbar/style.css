@@ -1,0 +1,106 @@
+.ant-select-selector {
+	background: transparent !important;
+	border-color: transparent !important;
+	color: rgb(203 213 225) !important;
+}
+
+.ant-select-outlined:not(.ant-select-disabled):not(
+		.ant-select-customize-input
+	):not(.ant-pagination-size-changer):hover
+	.ant-select-selector {
+	border-color: #8b5cf6 !important;
+}
+
+.ant-select-focused.ant-select-outlined:not(.ant-select-disabled):not(
+		.ant-select-customize-input
+	):not(.ant-pagination-size-changer)
+	.ant-select-selector {
+	border-color: #8b5cf6 !important;
+}
+
+.ant-select-dropdown {
+	background-color: #111 !important;
+	color: rgb(203 213 225) !important;
+}
+
+.ant-select-dropdown
+	.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+	background-color: #333 !important;
+	color: rgb(203 213 225) !important;
+}
+
+.ant-select-dropdown .ant-select-item {
+	color: rgb(203 213 225) !important;
+}
+
+.ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+	padding: 0px;
+}
+
+@media not all and (min-width: 768px) {
+	.hamburger-react {
+		display: block !important;
+		align-self: flex-end;
+	}
+}
+.hamburger-react {
+	display: none;
+}
+
+.success .ant-message-notice-content {
+	background: #111 !important;
+	border: 1px solid #333;
+	color: rgb(245, 245, 245);
+}
+
+.ant-menu-light.ant-menu-horizontal > .ant-menu-submenu-active::after {
+	border-width: 0px !important;
+	border-color: transparent !important;
+}
+
+.ant-menu-light.ant-menu-horizontal > .ant-menu-submenu-open::after {
+	border-width: 0px !important;
+	border-color: transparent !important;
+}
+
+.ant-menu-light.ant-menu-submenu-popup > .ant-menu {
+	border: 1px solid #333;
+}
+
+.ant-menu-light > .ant-menu .ant-menu-item {
+	display: flex;
+	align-items: center;
+}
+
+.ant-menu .ant-menu-title-content {
+	user-select: none;
+}
+
+.open .ant-menu-light .ant-menu-submenu-title {
+	display: flex;
+	align-items: center;
+}
+
+.open .ant-menu .ant-menu-submenu-title .ant-menu-item-icon + span {
+	width: 100px !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: inline !important;
+}
+
+.open .ant-menu-light {
+	display: inline !important;
+}
+
+@media not all and (min-width: 475px) {
+	.ant-menu-light {
+		display: none !important;
+	}
+}
+
+@media not all and (min-width: 1440px) {
+	.ant-menu .ant-menu-submenu-title .ant-menu-item-icon + span {
+		display: none !important;
+	}
+}
